@@ -20,3 +20,7 @@ for (let i=0; i<10; i++){
 }
 
 console.log(somma);
+
+let media = somma/10;
+
+console.log(media);
