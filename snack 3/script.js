@@ -14,9 +14,14 @@ const list = [
 ]
 
 let somma = 0;
+let maxValue = 0;
 
 for (let i=0; i<10; i++){
     somma += list[i];
+    if (list[i]>maxValue){
+        maxValue = list[i];
+    }
+
 }
 
 console.log(somma);
@@ -24,3 +29,5 @@ console.log(somma);
 let media = somma/10;
 
 console.log(media);
+
+console.log(maxValue);
