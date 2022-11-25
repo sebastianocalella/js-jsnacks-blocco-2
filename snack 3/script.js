@@ -1,4 +1,4 @@
-list = [
+const list = [
     12,
     2,
     4,
@@ -10,3 +10,11 @@ list = [
     0,
     12
 ]
+
+let somma = 0;
+
+for (let i=0; i<list.length; i++){
+    somma += list[i];
+}
+
+console.log(somma);
