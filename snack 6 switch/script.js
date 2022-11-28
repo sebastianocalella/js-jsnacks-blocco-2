@@ -17,12 +17,17 @@ const numberList = [
     2
 ];
 
+let summ = 0;
+
 for(let i = 0; i<numberList.length; i++){
     switch (i%2){
         case 0:
             console.log(numberList[i]);
+            summ+=numberList[i];
             break;
         case 1:
             break;
     }
 }
+
+console.log(summ);
