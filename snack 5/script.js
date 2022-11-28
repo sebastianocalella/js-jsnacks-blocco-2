@@ -3,7 +3,9 @@ const surnames = ['Cappelletti', 'Jager', 'Porcinelli' , 'Buffetti' , 'Forghieri
 
 const faulseList = [];
 
-for(let i=0; i<7; i++){
+n = parseInt(prompt('inserisi il numero di invitati falsi da aggiungere alla lista:'));
+
+for(let i=0; i<n; i++){
     faulseList.push(names[Math.floor(Math.random()*7)] + surnames[Math.floor(Math.random()*7)]);
 }
 console.log(faulseList);
